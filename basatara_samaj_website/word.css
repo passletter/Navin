@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --color1: #00ff4e;
+    --color2: #ff004e;
+    --color3: #b716e6;
+    --color4: #FF5722;
+    background-image: url("back.jpg");
+    scroll-behavior: smooth;
+    overflow-y:scroll;
+  }
+
+.p1::first-letter {
+    initial-letter: 2;
+}
+
+.container{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    /* background-image:url("back.jpg"); */
+    min-height:100vw;
+    max-width:80vw;
+    margin-left: 150px;
+    gap:20px;
+    overflow-y:scroll;
+    margin-top:20px;
+    margin-right:300px;
+    border: 2px solid #0066FF;
+    font-size: 20px;  
+    background-color:#FFCC33;  
+    box-shadow: 
+    20px 0px 10px 0px var(--color1),30px 10px 10px rgb(128, 0, 51),
+    0px 10px 5px 0px var(--color2),
+    -10px 0px 5px 0px var(--color3),
+    0px -10px 5px 0px var(--color4);
+    /* box-shadow:20px 20px 10px rgb(47, 0, 255), 0px 0px 10px 10px rgb(47, 0, 255),30px 30px 10px rgb(128, 0, 51),0 0 20px rgb(128, 0, 51); */
+    /* ,0 0 8px 8px inset rgba(234, 4, 4, 0.8),30px 30px 10px rgb(128, 0, 51), -10px -10px 50px rgb(47, 0, 255), -19px -19px 5px rgb(128, 0, 51); */
+    border-radius:1%;
+}
+.container p1{
+    display: block;
+    width:90%;
+    position:relative;
+    top:40px;
+}
+.container p{
+    margin-right:15px;
+    margin-left:15px;
+    width:fit-content;
+    text-align: justify;
+
+}
+section{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    margin-left:140px;
+    justify-content: flex-start;
+    align-items: center;
+    top:30px;
+    width:200px;
+    height:200px;
+    background-color: rgb(245, 241, 241);
+    border-radius:10%;
+    color:#2309e9; ;
+    
+
+
+}
+
+@media screen and (max-width:360px){
+    .container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    min-height:100vw;
+    min-width:100vw;
+    margin-right:0px;
+    margin-left:0px;
+    overflow-y:scroll !important;
+    background:none;
+    }
+}

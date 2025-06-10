@@ -1,0 +1,81 @@
+/* Reset margins and paddings for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1: #00ff4e;
+    --color2: #ff004e;
+    --color3: #b716e6;
+    --color4: #FF5722;
+}
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #eee2e2;
+    background-image: url("back.jpg");
+    background-repeat:repeat;
+    background-size:cover;
+}
+.p1::first-letter {
+    initial-letter: 2;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: auto;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 0px 10px 0px var(--color1),30px 10px 10px rgb(128, 0, 51),
+    0px 10px 5px 0px var(--color2),
+    -10px 0px 5px 0px var(--color3),
+    0px -10px 5px 0px var(--color4);
+    border: 2px solid #0066FF;
+    font-size: 20px;  
+    background-color:#e8e3d4; 
+}
+
+/* Paragraph styling */
+.container p {
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+/* Section styling */
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Heading styling */
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Responsive design using media queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
