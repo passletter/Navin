@@ -1,0 +1,14 @@
+D:\AdvancedCsharp\AdvancedCsharpProject\bin\Debug\net9.0\AdvancedCsharpProject.exe
+D:\AdvancedCsharp\AdvancedCsharpProject\bin\Debug\net9.0\AdvancedCsharpProject.deps.json
+D:\AdvancedCsharp\AdvancedCsharpProject\bin\Debug\net9.0\AdvancedCsharpProject.runtimeconfig.json
+D:\AdvancedCsharp\AdvancedCsharpProject\bin\Debug\net9.0\AdvancedCsharpProject.dll
+D:\AdvancedCsharp\AdvancedCsharpProject\bin\Debug\net9.0\AdvancedCsharpProject.pdb
+D:\AdvancedCsharp\AdvancedCsharpProject\obj\Debug\net9.0\AdvancedCsharpProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdvancedCsharp\AdvancedCsharpProject\obj\Debug\net9.0\AdvancedCsharpProject.AssemblyInfoInputs.cache
+D:\AdvancedCsharp\AdvancedCsharpProject\obj\Debug\net9.0\AdvancedCsharpProject.AssemblyInfo.cs
+D:\AdvancedCsharp\AdvancedCsharpProject\obj\Debug\net9.0\AdvancedCsharpProject.csproj.CoreCompileInputs.cache
+D:\AdvancedCsharp\AdvancedCsharpProject\obj\Debug\net9.0\AdvancedCsharpProject.dll
+D:\AdvancedCsharp\AdvancedCsharpProject\obj\Debug\net9.0\refint\AdvancedCsharpProject.dll
+D:\AdvancedCsharp\AdvancedCsharpProject\obj\Debug\net9.0\AdvancedCsharpProject.pdb
+D:\AdvancedCsharp\AdvancedCsharpProject\obj\Debug\net9.0\AdvancedCsharpProject.genruntimeconfig.cache
+D:\AdvancedCsharp\AdvancedCsharpProject\obj\Debug\net9.0\ref\AdvancedCsharpProject.dll
